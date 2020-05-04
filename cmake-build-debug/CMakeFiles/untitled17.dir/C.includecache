@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Asus/CLionProjects/untitled17/definitions.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/Asus/CLionProjects/untitled17/main.c
+stdio.h
+-
+stdlib.h
+-
+definitions.h
+C:/Users/Asus/CLionProjects/untitled17/definitions.h
+
+C:/Users/Asus/CLionProjects/untitled17/movie_piece.c
+stdio.h
+-
+
